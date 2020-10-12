@@ -1,0 +1,40 @@
+body {
+	background-image: url('van.jpg');
+}
+h1 {
+    font-size:8vw;
+	color:Grey;
+	text-align: center;
+	font-family: "Lucida Console", Courier, monospace;
+}
+
+h5 {
+    font-size:5vw;
+	color:Grey;
+	text-align: left;
+	font-family: "Lucida Console", Courier, monospace;
+}
+
+p {
+    font-size:3vw;
+	color:Grey;
+	text-align: left;
+	font-family: "Lucida Console", Courier, monospace;
+}
+a:link {
+  color: Grey;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: Grey;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: Grey;
+  background-color: transparent;
+  text-decoration: underline;
+}
