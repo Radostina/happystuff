@@ -15,17 +15,41 @@
     <h5>
 		Experiment with patients
   	<h5>
-	<img id="myImage" src="synthetic1.png" alt="Experiment 1">
-	<p>
-	Patients who can't forms longterm memories are given 5 impressionists' pictures to sort from most to least 
-	favorite. After that 
+	<button onclick="myFunction('1')">Stage 1</button>
+	<button onclick="myFunction('2')">Stage 2</button>
+	<button onclick="myFunction('3')">Stage 3</button>
+	<table>
+	<tr>
+    <th>
+	<p id="myText">	
+	</p></th>
+    <th><img id="myImage">
+	</th>
+
+  </tr>
+	</table>
 	
-	<p>
-	<button onclick="document.getElementById('myImage').src='synthetic1.png'">Stage 1</button>
-	<button onclick="document.getElementById('myImage').src='synthetic2.png'">Stage 2</button>
-	<button onclick="document.getElementById('myImage').src='synthetic3.png'">Stage 3</button>
+	
+
 	<h5>
 		Experiment with students
   	<h5>
+	<script>
+function myFunction(a) {
+	if(a == 1){
+	document.getElementById('myImage').src='synthetic1.png'
+	document.getElementById("myText").innerHTML = "Patients who can't forms longterm memories are given 5 impressionists' pictures to sort from most to least favorite. After that they are offered to choose and keep for themselves a print of either the painting on 3d or 4th place";
+	} else if( a == 2 ){
+	document.getElementById('myImage').src='synthetic2.png'
+	document.getElementById("myText").innerHTML = "The scientists leave. 30 minutes later the patients don't recall anything. The scientists come back and ask the to order the paintings from most to least favorite. This time the order is different";
+	} else if( a == 3 ){
+	document.getElementById('myImage').src='synthetic3.png'
+	document.getElementById("myText").innerHTML = "The patients percieve  the painting they chose as better and the painting they rejected as worse";
+	}
+	
+ 
+    
+}
+</script>
   </body>
 </html>
