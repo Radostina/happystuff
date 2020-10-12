@@ -1,0 +1,33 @@
+body {
+	background-image: url('tree.jpg');
+}
+h1 {
+    font-size:8vw;
+	color:White;
+	text-align: center;
+	font-family: "Lucida Console", Courier, monospace;
+}
+
+h5 {
+    font-size:5vw;
+	color:White;
+	text-align: left;
+	font-family: "Lucida Console", Courier, monospace;
+}
+a:link {
+  color: White;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: White;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: White;
+  background-color: transparent;
+  text-decoration: underline;
+}
